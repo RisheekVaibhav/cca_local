@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017", {
-  dbName: "IITMandi_Project",
+mongoose.connect("mongodb+srv://CCA:<hello123>@cca.9uawe7a.mongodb.net/?retryWrites=true&w=majority", {
+  dbName: "cca",
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
